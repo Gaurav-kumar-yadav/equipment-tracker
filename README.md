@@ -9,42 +9,67 @@ This project demonstrates how enterprise software can track equipment details su
 View all equipment in a table
 
 Add new pharmaceutical equipment
+
 Edit existing equipment details
+
 Delete equipment records
+
 Search equipment by name
+
 Filter equipment by type
+
 Sort equipment by last cleaned date
+
 Responsive and modern UI
+
 RESTful API integration
 
 🏭 Domain Context (Pharmaceutical Manufacturing)
 
 In pharmaceutical plants, every piece of equipment must be:
+
 Clearly identifiable
+
 Properly cleaned and documented
+
 Traceable for audits and compliance
+
 This application focuses on equipment tracking, which is a core part of:
+
 Cleaning validation
+
 Manufacturing compliance
+
 Regulatory audits
 
 🧰 Tech Stack
+
 Frontend
 
 React
+
 JavaScript (ES6+)
+
 Tailwind CSS
+
 Vite
+
 Backend
+
 Node.js
+
 Express.js
+
 MongoDB
+
 Mongoose
 
 Tools
 
 Git & GitHub
+
 Postman (API testing)
+
 VS Code
 
                       📁 Project Structure
@@ -79,19 +104,29 @@ Base URL:
 http://localhost:5000/api/equipment
 
 Method	Endpoint	Description
+
 GET	/api/equipment	Fetch all equipment
+
 POST	/api/equipment	Add new equipment
+
 PUT	/api/equipment/:id	Update equipment
+
 DELETE	/api/equipment/:id	Delete equipment
 
 ▶️ How to Run the Project Locally
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/Gaurav-kumar-yadav/equipment-tracker
+
 cd equipment-tracker
 
 2️⃣ Run Backend
+
 cd backend
+
 npm install
+
 npm run dev
 
 Server runs on:
@@ -99,8 +134,11 @@ Server runs on:
 http://localhost:5000
 
 3️⃣ Run Frontend
+
 cd frontend
+
 npm install
+
 npm run dev
 
 
@@ -109,6 +147,7 @@ Open in browser:
 http://localhost:5173
 
 Project UI look:
+
 ## 🎥 Video Demo
 
 ▶️ Watch the project demo here: 
