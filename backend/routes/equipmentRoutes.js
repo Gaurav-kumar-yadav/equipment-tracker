@@ -1,0 +1,16 @@
+const express = require("express");
+const {
+  getAllEquipment,
+  createEquipment,
+  updateEquipment,
+  deleteEquipment,
+} = require("../controllers/equipmentController");
+
+const router = express.Router();
+
+router.get("/", getAllEquipment);
+router.post("/", createEquipment);
+router.put("/:id", updateEquipment);
+router.delete("/:id", deleteEquipment);
+
+module.exports = router;
