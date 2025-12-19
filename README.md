@@ -109,6 +109,12 @@ Open in browser:
 http://localhost:5173
 
 Project UI look:
+## 🎥 Video Demo
+
+▶️ Watch the project demo here: 
+
+https://www.loom.com/share/afc78e24b995413a965282a7310ccc7a
+
 
 <img width="1027" height="473" alt="image" src="https://github.com/user-attachments/assets/0ce97309-4529-4245-a917-96e7d679cba0" />
 
